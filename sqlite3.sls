@@ -65,7 +65,7 @@
  (define libinit
    (begin
      (case (machine-type)
-       [(i3nt a6nt i3mw a6mw)
+       [(i3nt ta6nt a6nt i3mw a6mw)
 	(load-shared-object "sqlite3.dll")]
        [else
 	(load-shared-object "libsqlite3.so.0")])))
